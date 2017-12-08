@@ -1,1 +1,1 @@
-web: gunicorn chatterer-image-search:app
+web: gunicorn src.server:app
